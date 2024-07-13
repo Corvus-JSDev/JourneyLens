@@ -1,0 +1,21 @@
+[
+	{
+		"image": "",
+		"title": "",
+		"description": "",
+		"likes": "0",
+		"location": {
+			"countryOfOrigin": "",
+			"address": ""
+		},
+		"cords": {
+			"latitude": "",
+			"longitude": ""
+		},
+		"creationDate": "",
+		"creatorUUID": "",
+		"creatorUserName": "",
+		"postUUID": "",
+		"hasBeenEdited": false
+	}
+]

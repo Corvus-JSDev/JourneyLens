@@ -1,0 +1,22 @@
+.errorMessageContainer {
+	max-width: 90%;
+	font-size: 0.8rem;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+/** LOGIN SECTION  */
+.login_container {
+	background-color: #1f232c;
+	padding: 30px 20px;
+}
+
+/** SIGN UP SECTION  */
+.passwordRequirements {
+	opacity: 0.75;
+	list-style: inside;
+	margin-top: 5px;
+}

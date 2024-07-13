@@ -1,0 +1,139 @@
+/* Nav Links */
+.navLinks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+
+	transition: all 0.2s ease-in-out;
+}
+
+/* 
+
+*/
+
+/* Long Nav Bar */
+.longNavBar_Container {
+	position: relative;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: #394263;
+	height: 60px;
+	padding: 0px 70px;
+
+	transition: padding 0.5s ease-in-out;
+}
+.longNavBar_Container h1 {
+	transition: all 0.5s ease-in-out;
+}
+.longNavBar_Container img {
+	width: 35px !important;
+
+	transition: all 0.3s ease-in-out;
+}
+.longNavBar_Links_Container {
+	list-style: none;
+	display: flex;
+	gap: 30px;
+}
+
+@media (max-width: 900px) {
+	.longNavBar_Container {
+		padding: 0px 40px;
+	}
+}
+@media (max-width: 800px) {
+	.navLinks {
+		gap: 30px;
+	}
+
+	.longNavBar_Container {
+		padding: 0px 20px;
+	}
+	.longNavBar_Container h1 {
+		font-size: 1.3rem;
+	}
+	.longNavBar_Container img {
+		width: 30px;
+	}
+}
+
+/* 
+
+*/
+
+/* Short Hamburger Menu */
+.HamburgerMenu_Container {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: #424c72;
+	height: 60px;
+	padding: 0px 10px;
+
+	transition: padding 0.5s ease-in-out;
+}
+.HamburgerMenu_Btn {
+	padding: 5px;
+}
+.logo_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+	gap: 10px;
+}
+.logo_container h1 {
+	font-size: 1.3rem;
+}
+.drawerContent {
+	width: 95vw;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+@media (max-width: 300px) {
+	.logo_container h1 {
+		display: none;
+	}
+	.drawerContent {
+		width: 93vw;
+	}
+}
+
+/* 
+
+*/
+
+.longNavBar_Container,
+.HamburgerMenu_Container {
+	z-index: 99999999999;
+}
+
+/* Styling for the nav links */
+.navLinkStyle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+.navLinkStyle > a {
+	padding: 3px 15px;
+	transition: background-color 0.15s ease-in-out;
+	border-radius: 10px;
+}
+.navLinkStyleSignup {
+	border-radius: 5px;
+	background-color: #426d93;
+}
+.navLinkStyleSignup:hover {
+	background-color: #5386b2 !important;
+}
+.navLinkStyle > a:hover {
+	background-color: #4b61b981;
+}

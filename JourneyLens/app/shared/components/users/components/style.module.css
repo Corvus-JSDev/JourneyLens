@@ -1,0 +1,84 @@
+/** User Card */
+
+.userCard {
+	overflow: hidden;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+	background-color: #3f4757;
+	border-radius: 20px;
+	min-height: 170px;
+	max-height: 230px;
+	min-width: 350px;
+	padding: 0px 30px;
+
+	display: flex;
+	align-items: center;
+	transition: all 0.3s ease-in-out;
+}
+.userCard__profilePicture {
+	min-width: 80px;
+	max-width: 100px;
+	margin-right: 25px;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.userCard__infoSection {
+	width: clamp(200px, 100%, 400px);
+	padding: 20px 0px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.userCard__infoSection p {
+	line-height: 1.3;
+	font-size: 14px;
+}
+.userCard__infoSection h1 {
+	font-size: 20px;
+	font-weight: 600;
+	transition: all 0.3s ease-in-out;
+}
+
+.userCard:hover {
+	background-color: #525c70;
+	box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3);
+}
+.userCard:hover .userCard__infoSection h1 {
+	color: gold;
+}
+.infoSection__header {
+	padding: 0px 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__likesContainer {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+/* 
+
+*/
+
+/** User List */
+
+.contentContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 0px;
+}
+
+.cardContainer {
+	width: 100%;
+	min-width: 300px;
+	max-width: 600px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}

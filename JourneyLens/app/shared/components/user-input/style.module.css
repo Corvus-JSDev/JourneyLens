@@ -1,0 +1,30 @@
+.userInputContainer {
+	/* border: 3px solid red; */
+
+	display: flex;
+	flex-direction: column;
+}
+
+.userInputContainer * {
+	transition: all 0.2s ease-in-out;
+	overflow: auto;
+	resize: none;
+}
+.userInputContainer textarea,
+.userInputContainer input {
+	background-color: #404756;
+}
+
+.userInputContainer label {
+	margin-top: 10px;
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+.userInputContainer input {
+	font-size: 1rem;
+	padding: 1px 5px;
+}
+.userInputContainer input:focus {
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}

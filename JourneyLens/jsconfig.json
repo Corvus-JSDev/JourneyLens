@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@/*": ["./*"],
+			"@shared/*": ["./app/shared/*"],
+			"@pages/*": ["./app/pages/*"],
+			"@imgs/*": ["./public/imgs/*"],
+			"@icons/*": ["./public/icons/*"],
+			"@api/*": ["./app/api/*"],
+			"@data/*": ["./data/*"]
+		}
+	}
+}
