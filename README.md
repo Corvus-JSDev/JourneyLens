@@ -6,26 +6,24 @@ JourneyLens is a social media website that aims to connect people from around th
 
 ## Tools used
 Since this project is a full-stack application, I really needed to make sure the tech stack was solid. For that reason, I decided on the acclaimed MERN stack, along with some others, to help round everything out.
-For the front-end portion, I used:
+For the *front-end* portion, I used:
+- Next.js
+- React   
+- DaisyUI
+- jQuery    
+- mapbox-gl
+- TailWindCSS
+- YUP verification
 
-    Next.js
-    React
-    DaisyUI
-    jQuery
-    mapbox-gl
-    TailWindCSS
-    YUP verification
-
-For the back-end, I went with:
-
-    MongoDB
-    Express.js
-    Node
-    BcryptJS
-    Body-Parser
-    Mongoose
-    Nodemon
-    Multer
+For the *back-end*, I went with:
+- MongoDB
+- Express.js
+- Node
+- BcryptJS
+- Body-Parser
+- Mongoose
+- Nodemon
+- Multer
 
 
 
