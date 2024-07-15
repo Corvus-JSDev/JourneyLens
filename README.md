@@ -50,3 +50,10 @@ Thank you for visiting JourneyLens. Your privacy is important to us, and we are 
  5. Limitation of Liability a. To the fullest extent permitted by law, JourneyLens shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Website; (ii) any conduct or content of any third party on the Website.
 6. Changes to Terms and Conditions We may update these terms and conditions from time to time without prior notice. The updated terms and conditions will be effective upon posting on the Website. Your continued use of the Website after any such changes constitutes your acceptance of the new terms and conditions.
  7. Governing Law These terms and conditions shall be governed by and construed in accordance with the laws of the local jurisdiction, without regard to its conflict of law principles.
+
+
+
+
+
+
+
