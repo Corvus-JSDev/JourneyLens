@@ -25,11 +25,20 @@ For the *back-end*, I went with:
 - Nodemon
 - Multer
 
+<br>
 
+---
+
+### Features currently under construction:
+
+- **Map Viewer**: Allows users to see the location where the picture was taken on a map.
+- **Improved Security**: Security is always a priority, and I work every day to reduce attack surfaces and fortify the servers.
+- **Graphic Design**: Enhancing the appearance and user experience overall.
+
+---
 
 <br>
 
-<br>
 
 ##### Privacy policy / Terms and conditions
 
