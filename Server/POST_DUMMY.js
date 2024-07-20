@@ -1,3 +1,5 @@
+// Use these if you want to test with dummy code without using a data base
+
 let DUMMY_PLACES = [
 	{
 		image: "",
