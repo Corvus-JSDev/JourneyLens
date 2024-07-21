@@ -1,3 +1,5 @@
+Visit JourneyLens at: https://journeylensapp.netlify.app/
+
 # JourneyLens
 I created this full-stack app, for people to showcase their travels around the world. Users can simply log in and go onto their profile to create a new post to show their friends what they've been up to and how their vacation is going.
 
