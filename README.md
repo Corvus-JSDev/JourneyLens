@@ -25,6 +25,8 @@ For the *back-end*, I went with:
 - Nodemon
 - Multer
 
+To host the site, I used two services: *Heroku* for the back-end and *Firebase* for the front-end
+
 <br>
 
 ---
